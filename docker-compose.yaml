@@ -1,0 +1,15 @@
+
+services:
+  webserver:
+    build: webserver
+    ports: 
+      - "8000:5000"
+    volumes:
+      - "c:/Users/acer/PycharmProjects/test container/sharedVolume:/app/sharedVolume"
+
+  rserver:
+    build: rserver
+    ports:
+      - "8001:8000"
+    volumes:
+      - "c:/Users/acer/PycharmProjects/test container/sharedVolume:/app/sharedVolume"

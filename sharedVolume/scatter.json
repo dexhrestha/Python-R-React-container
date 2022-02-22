@@ -1,0 +1,22 @@
+[
+	{
+		"type": "scatterplot",
+	 	"color": "#777188",
+	  	"isSecondYPlot": "0", 
+		"legendLevels": "auto", 
+		"legendshow": "0", 
+		"markersType": ["s", "o", "v", "<", ".", "^", ">", "8"], 
+		"palette": "Set1", 
+		"sizeData": "ACTARMCD", 
+		"size_order": ["TRTA", "PLAC", "TRTB"], 
+		"style_order": ["PLAC", "TRTA", "TRTB"]
+	}, 
+	{
+		"type": "rugplot", 
+		"color": "#777188", 
+		"isSecondYPlot": "0", 
+		"legendLevels": "auto", 
+		"legendshow": "0", 
+		"palette": "Set1"
+	}
+]
